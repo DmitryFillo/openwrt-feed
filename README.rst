@@ -29,5 +29,3 @@ Activate the package::
     ./scripts/feeds install PACKAGE_NAME
 
 Installed packages should now appear in menuconfig.
-
-*If you are building whole OpenWrt, note that you should disable this feed from adding it to the distfeeds.conf, because there is no pre-compiled packages for any platform. Check Image Configuration -> Separate feed repositories and disable this feed. You can also disable it manually in the distfeeds.conf after installation.*
