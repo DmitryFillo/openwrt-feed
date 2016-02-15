@@ -1,10 +1,10 @@
-====================
-Fillo's OpenWrt Feed
-====================
+============
+OpenWrt Feed
+============
 
 I created it for personal use to collect packages with some patches/modules/etc but it's cool if you'll find a desired package here.
 
-Stable branch for 15.05.
+This branch is tested for 15.05.
 
 .. contents::
 
