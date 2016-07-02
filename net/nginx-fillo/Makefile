@@ -99,7 +99,7 @@ endif
 ifeq ($(CONFIG_NGINX_FILLO_FLV),y)
   ADDITIONAL_MODULES += --with-http_flv_module
 endif
-ifeq ($(CONFIG_NGINX_FILLO_HTTP_ECHO),y)
+ifeq ($(CONFIG_NGINX_FILLO_ECHO),y)
   ADDITIONAL_MODULES += --add-module=$(PKG_BUILD_DIR)/echo-nginx-module
 endif
 ifeq ($(CONFIG_NGINX_FILLO_SSL),y)
