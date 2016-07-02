@@ -68,7 +68,7 @@ define Package/nginx-fillo
   SECTION:=net
   CATEGORY:=Network
   SUBMENU:=Web Servers/Proxies
-  TITLE:=Nginx web server (with sub/substitutions module)
+  TITLE:=Nginx web server (with additional useful modules)
   URL:=http://nginx.org/
   DEPENDS:=+NGINX_FILLO_PCRE:libpcre +(NGINX_FILLO_SSL||NGINX_FILLO_HTTP_CACHE||NGINX_FILLO_HTTP_AUTH_BASIC):libopenssl +NGINX_FILLO_HTTP_GZIP:zlib +libpthread
   MENU:=1
@@ -76,7 +76,7 @@ endef
 
 define Package/nginx-fillo/description
 nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev.
-With ngx_http_sub_module and NGINX_FILLOstitutions_filter support.
+With ngx_http_sub_module, nginx_substitutions_filter and nginx_echo_module support.
 endef
 
 define Package/nginx-fillo/config
