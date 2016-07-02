@@ -11,7 +11,7 @@ This branch is tested for 15.05.
 Packages
 ========
 
-* `nginx-fillo <https://github.com/DmitryFillo/openwrt-feed/tree/for-15.05/net/nginx-sub>`_ (with useful additional modules support)
+* `nginx-fillo <https://github.com/DmitryFillo/openwrt-feed/tree/for-15.05/net/nginx-fillo>`_ (with useful additional modules support)
 
 How to use
 ==========
