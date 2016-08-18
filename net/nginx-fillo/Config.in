@@ -17,6 +17,15 @@ config NGINX_FILLO_ECHO
 		More: https://github.com/openresty/echo-nginx-module
 	default y
 
+config NGINX_FILLO_HTTP2
+	bool
+	prompt "Enable HTTP/2 module"
+	help
+		The ngx_http_v2_module module (1.9.5) provides support for HTTP/2 and supersedes the ngx_http_spdy_module module.
+
+		More: https://nginx.org/en/docs/http/ngx_http_v2_module.html
+	default y
+
 config NGINX_FILLO_SSL
 	bool
 	prompt "Enable SSL module"
