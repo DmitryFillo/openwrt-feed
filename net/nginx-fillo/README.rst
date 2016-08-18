@@ -1,6 +1,6 @@
-=========
-nginx-sub
-=========
+===========
+nginx-fillo
+===========
 
 This is nginx 1.9.6 fork from `OpenWrt packages <https://github.com/openwrt/packages/tree/cd98970dc84ff72c419d657994965adc7927f98a>`_ (commit cd98970dc84ff72c419d657994965adc7927f98a) with:
 
