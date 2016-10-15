@@ -11,7 +11,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=nginx
 PKG_VERSION:=1.9.6
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE_NAME:=$(PKG_NAME)-$(PKG_VERSION)
 
@@ -77,7 +77,7 @@ endef
 
 define Package/nginx-fillo/description
 nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev.
-With ngx_http_sub_module, nginx_substitutions_filter and nginx_echo_module support.
+Custom build. Info: https://github.com/DmitryFillo/openwrt-feed/tree/master/net/nginx-fillo
 endef
 
 define Package/nginx-fillo/config
