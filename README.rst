@@ -2,6 +2,8 @@
 OpenWrt Feed
 ============
 
+**No longer supported, but it works anyway.**
+
 I created it for personal use to collect packages with some patches/modules/etc but it's cool if you'll find a desired package here.
 
 This branch is tested for 15.05.
